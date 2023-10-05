@@ -1,4 +1,4 @@
-﻿namespace Accounts
+﻿namespace Buying
 {
     public class Class1
     {
