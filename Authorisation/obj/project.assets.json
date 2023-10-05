@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Accounts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Accounts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Accounts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Accounts/1.0.0": {
+      "type": "project",
+      "path": "../Accounts/Accounts.csproj",
+      "msbuildProject": "../Accounts/Accounts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Accounts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sasha\\.nuget\\packages\\": {},
+    "F:\\Cinema 4D by REDIX\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\C# learn\\data sciense\\ConsoleApp1\\Authorisation\\Authorisation.csproj",
+      "projectName": "Authorisation",
+      "projectPath": "F:\\C# learn\\data sciense\\ConsoleApp1\\Authorisation\\Authorisation.csproj",
+      "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
+      "outputPath": "F:\\C# learn\\data sciense\\ConsoleApp1\\Authorisation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "F:\\Cinema 4D by REDIX\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "F:\\C# learn\\data sciense\\ConsoleApp1\\Accounts\\Accounts.csproj": {
+              "projectPath": "F:\\C# learn\\data sciense\\ConsoleApp1\\Accounts\\Accounts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
